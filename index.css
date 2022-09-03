@@ -1,0 +1,109 @@
+:root{
+  --background-color: #661300;
+  --color: #1a000177;
+  --font-family: 'Raleway';
+  --font-size: 1.4rem;
+  --container-background: #ff4d6ea3;
+  --border: 10px solid #ff1a39;
+  --text-color: #ffffff;
+}
+
+body{
+  background-color: var(--background-color);
+  font-family: var(--font-family);
+  font-size: var(--font-size);
+  background-image: url('images/background.jpg');
+  background-size: cover;
+  background-blend-mode: hard-light;
+}
+
+#container{
+  display: flex;
+  justify-content: space-around;
+  width: 720px;
+  height: 420px;
+  margin: 100px auto;
+  background-color: var(--container-background);
+  text-align: center;
+  border: var(--border);
+  border-bottom-right-radius: 75px;
+  border-bottom-left-radius: 75px;
+  border-bottom: 10px solid #FFF
+}
+
+.score_side{
+  width: 320px;
+  height: 320px;
+  background-color: var(--color);
+  margin-top: 50px;
+  border-radius: 20px;
+  border-bottom: 2px solid #ff1a40;
+  border-top: 1px solid #ff1a40;
+}
+
+.title{
+  color: var(--text-color);
+  font-size: 2.5rem;
+  font-weight: 700px;
+  margin-bottom: 20px;
+}
+
+.score-sheet{
+  width: 160px;
+  height:120px;
+  background-color: var(--text-color);
+  text-align: center;
+  margin-bottom: 20px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  opacity: 0.9;
+  border-radius: 12px;
+  border-left: 3px solid #ff1a40;
+  border-right: 3px solid #ff1a40;
+  font-size: 5.5rem;
+  font-weight: bold;
+  color: red;
+}
+
+.add_score_buttons{
+  padding: 5px 10px;
+  background-color: transparent;
+  border: 1px solid #ff1a40;
+  color: var(--text-color);
+  font-weight: bold;
+  font-size: 1.5rem;
+
+}
+
+.add_score_buttons:hover{
+  background-color: #dc0327;
+}
+
+#board_title{
+  position: absolute;
+  color: var(--text-color);
+  top: 15%;
+  width:720px;
+  background-color: #ff1a39;
+}
+
+#reset{
+  position: absolute;
+  top: 101%;
+  width: 520px;
+  padding: 8px 10px;
+  border-radius: 15px;
+  border: none;
+  font-family: var(--font-family);
+  font-size: 15px;
+  font-weight: bold;
+  color: #FFF;
+  background-color: transparent;
+ 
+}
+
+#reset:hover{
+  background-color: #FFF;
+  color:#ff1a39
+}

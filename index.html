@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="index.css" />
+    <title>Scoreboard</title>
+  </head>
+  <body>
+    <div id="container">
+      <h2 id="board_title">BASKETBALL SCOREBOARD</h2>
+      <div class="score_side" id="home-side">
+        <h3 class="title">HOME</h3>
+        <span class="score-sheet" id="home-score-sheet"></span>
+        <button class="add_score_buttons" id="home_add_one_btn">+1</button>
+        <button class="add_score_buttons" id="home_add_two_btn">+2</button>
+        <button class="add_score_buttons" id="home_add_three_btn">+3</button>
+      </div>
+      <div class="score_side" id="away_side">
+        <h3 class="title">AWAY</h3>
+        <span class="score-sheet" id="away-score-sheet"></span>
+        <button class="add_score_buttons" id="away_add_one_btn">+1</button>
+        <button class="add_score_buttons" id="away_add_two_btn">+2</button>
+        <button class="add_score_buttons" id="away_add_three_btn">+3</button>
+      </div>
+      <button id="reset">RESET</button>
+    </div>
+  </body>
+  <script src="index.js"></script>
+</html>
