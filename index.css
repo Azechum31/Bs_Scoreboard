@@ -83,14 +83,14 @@ body{
 #board_title{
   position: absolute;
   color: var(--text-color);
-  top: 10%;
+  top: 12%;
   width:720px;
   background-color: #ff1a39;
 }
 
 #reset{
   position: absolute;
-  top: 60%;
+  top: 85%;
   width: 520px;
   padding: 8px 10px;
   border-radius: 15px;
