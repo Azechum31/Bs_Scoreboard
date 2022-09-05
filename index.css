@@ -90,7 +90,7 @@ body{
 
 #reset{
   position: absolute;
-  top: 95%;
+  top: 100%;
   width: 520px;
   padding: 8px 10px;
   border-radius: 15px;
